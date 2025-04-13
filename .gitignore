@@ -35,7 +35,11 @@ build/
 ### Cursor ###
 
 # Bỏ qua file cursor
-../.cursorrules
+Backend/.cursorrules
+Frontend/.cursorrules
+prompt.md
+cursor.md
+
 
 # Bỏ qua file .env
 ../.env

@@ -1,0 +1,52 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-rgb: 245, 245, 245;
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-rgb));
+    font-family: "Inter", sans-serif;
+}
+
+.progress-bar {
+    height: 8px;
+    border-radius: 4px;
+    background-color: #edf2f7;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background-color: #3498db;
+    transition: width 0.3s ease-in-out;
+}
+
+.tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.tag-important {
+    background-color: #f56565;
+    color: white;
+}
+
+.tag-normal {
+    background-color: #4299e1;
+    color: white;
+}
+
+.tag-urgent {
+    background-color: #ed8936;
+    color: white;
+}
